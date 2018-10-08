@@ -1,0 +1,74 @@
+/* CSS Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Starting border box layout */
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.outer-container {
+  border: 20px solid #c300ff;
+  display: inline-block;
+}
+
+.inner-container {
+  border-top: 1em solid #03278a;
+  border-right: 1em solid #535353;
+  border-bottom: 1em solid #e9d900;
+  border-left: 1em solid #038a0e;
+  box-sizing: border-box;
+  background: firebrick;
+  width: 400px;
+  font-size: 1.1em;
+  text-align: center;
+  /* overflow: hidden; */
+  /* height: 300px; */
+}

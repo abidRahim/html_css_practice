@@ -1,0 +1,14 @@
+Problem For Layout1
+
+1. Create all the box according to the design of Layout1.
+2. Calculate actual width and height of each box in Layout1.
+3. Create a new layout According to Layout2.(ignore the font Family)
+
+
+Problem For Layout2
+
+1. Create the layout according to Lyout2.
+	 * Each container has width 560px;
+	 * Each box has width 160px and height 100px;
+	 * BOrder-width is 10px on boxes.
+	 * Note in the first container the boxes does not have any border.

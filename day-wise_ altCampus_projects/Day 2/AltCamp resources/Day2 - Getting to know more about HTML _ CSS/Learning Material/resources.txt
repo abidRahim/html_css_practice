@@ -1,0 +1,6 @@
+1. https://learn.shayhowe.com/html-css/getting-to-know-css/
+	* https://css-tricks.com/specifics-on-css-specificity/
+	* https://specificity.keegan.st/
+
+	* https://www.youtube.com/watch?v=NzzGt7EmXVw&list=PLqGj3iMvMa4KlJn1pMYPVV3eYzxJlWcON
+	*https://www.youtube.com/watch?v=s7ONvIgOWdM&list=PLqGj3iMvMa4IOmy04kDxh_hqODMqoeeCy
