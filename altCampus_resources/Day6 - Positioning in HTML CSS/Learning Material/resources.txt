@@ -1,0 +1,7 @@
+1. https://learn.shayhowe.com/html-css/positioning-content/
+	*http://book.mixu.net/css/1-positioning.html
+	*https://www.youtube.com/watch?v=xFGBNv2KeVU
+	
+2.https://learn.shayhowe.com/advanced-html-css/detailed-css-positioning/
+
+	https://www.youtube.com/watch?v=hIG-fZ2042k&index=4&list=PLqGj3iMvMa4L731ispRfGAabXeRpM4RL6 (centering in css)

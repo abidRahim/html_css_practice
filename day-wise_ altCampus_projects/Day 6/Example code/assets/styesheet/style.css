@@ -1,0 +1,21 @@
+span {
+  background: aqua;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
+.left {
+  float: left;
+  margin-top: 20px;
+}
+
+.right {
+  margin-top: 20px;
+  float: right;
+}
+
+div {
+  height: 200px;  
+  background: firebrick;
+}

@@ -1,0 +1,5 @@
+1. Create the layout according to the layout1.
+
+2. Create the layout according ot the layout2.
+3. In layout2 keep the logo section(AltCampus) fixed.
+4. In layout2 keep the keep the cat image in the middle of block(vertically and horizontally).
