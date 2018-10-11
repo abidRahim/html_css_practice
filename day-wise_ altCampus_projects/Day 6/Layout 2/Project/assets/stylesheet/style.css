@@ -70,7 +70,7 @@ nav {
 }
 
 
-a:link, a:visited {
+.font:link, .font:visited {
   text-decoration: none;
   color: white;    
   cursor: pointer;  
@@ -94,11 +94,14 @@ h3 {
   color: #3b3a3a;
   font-size: 1.2rem;
   font-weight: bold;  
+  padding: 10px;
 }
 
 hr {
   border-top: 1px solid #ccc;
-  margin: 1.5rem 0;
+  margin-top: 1.5em;
+  margin-bottom: 0;
+  font-size: 0;  
 }
 
 p {
@@ -123,3 +126,8 @@ footer p {
   margin: 1em;
   font-weight: bold;  
 }
+
+main {
+  padding-bottom: 0;
+}
+
