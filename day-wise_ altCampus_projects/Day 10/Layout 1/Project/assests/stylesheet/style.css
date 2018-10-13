@@ -1,0 +1,142 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, 
+/* dl, dt, dd, ol, ul, li, */
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #D4CEA7;
+}
+/* ol, ul {
+  list-style: none;
+} */
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Styling Layout */
+
+/* Styling Header  */
+
+nav {
+  display: inline-block;
+}
+
+.bar {
+  height: 50px;
+  background: #dd4600;
+  padding: 0 4.5em;
+}
+
+.bar li {
+  display: inline-block;
+  color: aliceblue;
+  padding-right: 2em; 
+  font-weight: 450;  
+}
+
+ol {
+  padding-top: 1em;
+}
+
+ol ul {
+  padding-top: 1em;
+}
+
+/* Styling column sections  */
+
+main {
+  width: 960px;
+  background: #cec69d;
+  padding: 3em 5em;
+  margin: 0 auto;
+}
+
+.tab {
+  margin: 0 auto;
+  
+}
+
+.col-1 {
+  display: inline-block;
+  height: 400px;
+  width: 250px;
+  vertical-align: top;
+  background: #005979;
+  color: aliceblue;
+  margin: 0.5em 2em;
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.6);
+}
+
+.col-1 li {
+  padding-bottom: 0.5em;
+  color: #cec69d;
+}
+
+.col-13 li {
+  list-style-type: none;
+  background: url("../media/checkmark.png") 0 0 no-repeat;
+  background-size: 16px;
+  padding-left: 20px;
+  padding-top: 2px;
+}
+
+dt {
+  font-family: 'Roboto mono', monospace;
+  padding: 0.4em 0;
+  font-size: 1.1rem;
+  color: #333333;
+}
+
+dd {
+  color: #464646;
+  font-size: 0.8em;
+  line-height: 1.5;
+  padding: 1em;
+  padding-left: 2em;
+}
+
+/* Footer */
+
+.foot {
+  height: 60px;
+  background: #1e1f1d;
+  padding: 1em 4.5em 0.5em;
+}
+
+.foot li {
+  display: inline-block;
+  color: aliceblue;
+  padding-right: 2em; 
+  font-weight: 450;  
+}

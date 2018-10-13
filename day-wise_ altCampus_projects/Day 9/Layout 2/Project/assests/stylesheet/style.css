@@ -1,0 +1,112 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+  background: url("https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjI0MX0&s=7fc22eb4fd6eccb1aec7ebe51277ee1a&auto=format&fit=crop&w=1568&q=80") fixed;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Styling Layout */
+
+.box {
+  position: relative;
+  display: inline-block;
+  height: 200px;
+  width: 280px;
+  border-radius: 8px;
+  background: #f80536;
+  margin: 0 10px;
+}
+
+.box4 {
+  position: relative;
+  width: 800px;
+  height: 300px;
+  margin: 40px auto;
+  /* text-align: center; */
+  border-radius: 8px;
+}
+
+.blocks {
+  width: 90%;  
+  margin: 10px auto;
+  text-align: center;
+}
+
+/* Typography  */
+
+h1 {
+  font-size: 1.3rem;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+.box p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 600;
+  font-size: 0.8em;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Applying Gradient  */
+
+.box2 {
+  background: linear-gradient(to right, #240209, #f80536);
+}
+
+.box3 {
+  background: radial-gradient(#f80536 40%, #240209);
+}
+
+.box4 {
+  background-image: linear-gradient(to right bottom, rgba(256, 256, 256, 0.0), rgba(255, 63, 0, 0.6) 80%), url('https://images.unsplash.com/photo-1533133555369-4be716b93bb7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e59ce9ef703b19e983f14667cbf87745&auto=format&fit=crop&w=839&q=80');  
+}
