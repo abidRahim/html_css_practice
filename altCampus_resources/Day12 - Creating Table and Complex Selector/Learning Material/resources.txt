@@ -1,0 +1,4 @@
+1. https://learn.shayhowe.com/html-css/organizing-data-with-tables/					
+
+2. https://learn.shayhowe.com/advanced-html-css/complex-selectors/
+						

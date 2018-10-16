@@ -56,8 +56,6 @@ main {
 	box-sizing: border-box;
 }
 
-/* Styling Page */
-
 /* Styling Header */
 
 a:link, a:visited {
@@ -132,9 +130,6 @@ main {
 .media audio {
 	width: 80%;
 }
-
-
-
 
 #superhero {
 	display: inline-block;
@@ -226,6 +221,8 @@ textarea {
 	font-weight: 550;
 	padding: 15px 40px;
 }
+
+/* Footer Styling */
 
 footer {
 	background: #2C2C2C;
