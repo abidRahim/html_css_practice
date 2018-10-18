@@ -1,0 +1,4 @@
+1. https://learn.shayhowe.com/html-css/writing-your-best-code/
+2. https://learn.shayhowe.com/advanced-html-css/performance-organization/
+
+3. http://getbem.com/
