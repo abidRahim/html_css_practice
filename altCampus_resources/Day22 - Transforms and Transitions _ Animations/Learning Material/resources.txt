@@ -1,0 +1,5 @@
+1. https://learn.shayhowe.com/advanced-html-css/css-transforms/
+   * https://www.youtube.com/watch?v=8NGNKBIA_eI (for perspective)
+   * https://www.youtube.com/watch?v=VTtNBpSidNw
+
+2. https://learn.shayhowe.com/advanced-html-css/transitions-animations/
