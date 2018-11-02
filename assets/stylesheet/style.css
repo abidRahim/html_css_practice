@@ -1,0 +1,272 @@
+/* 
+  CSS Reset 
+*/
+
+:root {
+	font-size: 16px;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Source Sans Pro', 'FontAwesme', "Open Sans", Arial, Helvetica, sans-serif;
+	color: #545454;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+}
+
+/* 
+  Primary header 
+*/
+
+.current::after {
+	display: block;	
+	background-color: #2388fa;	
+}
+
+.header__wrapper {
+	background: #0d0d0d;
+	padding: 60px 0;
+}
+
+
+
+.header__nav ul {
+	display: grid;
+	grid-template-columns: repeat(4, 140px);	
+	justify-content: center;
+	justify-items: center;	
+}
+
+.header__nav li a {
+	display: inline-block;
+	color: rgba(255, 255, 255, 0.65);	
+	font-size: 1.2rem;
+	font-weight: 100;	
+	padding: 15px 0;
+}
+
+#current {
+	font-weight: 500;
+	color: #fff;
+	position: relative;
+}
+
+#current::after {
+	display: block;
+	content: "";
+	background-color: #2388fa;
+	height: 0.1rem;
+	width: calc(100% + 1.5rem);	
+	position: absolute;
+	bottom: 0;
+	left: -0.75rem;
+}
+
+/* 
+	Header Dropdown 
+*/
+
+.dropdown-parent:nth-child(2) {
+	position: relative;
+}
+
+.dropdown-parent .dropdown {
+	position: absolute;
+	top: 4rem;
+	left: -3.2rem;
+	background-color: #1a1a1a;
+	width: 10rem;
+	display: flex;
+	flex-direction: column;
+	border-radius: 8px;	
+	visibility: hidden;
+	transition: all 0.4s ease-in-out;	
+	opacity: 0;	
+}
+
+.dropdown-parent:hover > .dropdown {
+	transition: opacity 0.3s ease-in-out;	
+	opacity: 1;
+	visibility: visible;
+}
+
+.dropdown::before {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	top:-3%;
+	right: 20%;	
+	z-index: 3;
+	background: #1a1a1a;
+	transform: rotate(45deg);
+}
+
+.dropdown li {
+	color: rgba(255, 255, 255, 0.65);
+	border-bottom: 0.5px solid rgba(255, 255, 255, 0.65);
+}
+
+.dropdown li:last-child {
+	border-bottom: none;
+}
+
+.dropdown li > a{
+	display: inline-block;
+	padding: 1rem;
+}
+
+.parent__sub-dropdown .sub-dropdown {
+	position: absolute;	
+	background-color: #1a1a1a;
+	top: 75%;
+	left: -110%;
+	width: 10rem;
+	display: flex;
+	flex-direction: column;
+	border-radius: 8px;	
+	visibility: visible;
+	opacity: 0;
+}
+
+.parent__sub-dropdown .sub-dropdown::before{
+	content: "";
+	display: block;
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	top: 8%;
+	right: -4%;
+	transform: rotate(45deg);
+	z-index: 3;
+	background-color: #1a1a1a;
+}
+
+.parent__sub-dropdown:hover > .sub-dropdown {
+	transition: opacity 0.4s ease-in-out;	
+	opacity: 1;
+	visibility: visible;
+}
+
+
+/* 
+	Icons
+*/
+
+.fa-phone {
+	transform: scaleX(-1);
+	filter: FlipH;
+}
+
+.fa-angle-down {
+	margin-right: 5px;
+}
+
+/* 
+	Typography  
+*/
+
+.logo {
+	display: grid;
+	place-content: center center;
+	align-items: center;
+	grid-auto-flow: column;
+	grid-gap: 10px;
+	color: #fff;	
+	padding: 80px 0;
+	font-size: 2.2rem;
+}
+
+.logo span {
+	color: rgba(255, 255, 255, 0.65);		
+	font-weight: 300;
+}
+
+/* Main Grid */
+
+.main__grid1 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.hero {
+	overflow: hidden;
+	display: grid;
+	grid-template-columns: 1;
+	grid-template-rows: 1;
+}
+
+.hero1 {
+	grid-column: span 2;		
+}
+
+.main__grid__image {
+	width: 100%;
+	/* height: 100%; */
+	grid-column: 1 / -1;
+	grid-row: 1 / -1;	
+}
+
+
+
+.main__grid__content {
+	grid-column: 1 / -1;
+	grid-row: 1 / -1;
+	position: relative;		
+	display: grid;
+	justify-items: center;
+	align-items: center;
+	place-content: center;	
+}
+
+
+
+
+
